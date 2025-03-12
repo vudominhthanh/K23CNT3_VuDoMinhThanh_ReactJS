@@ -1,14 +1,6 @@
 import React, { Component } from 'react'
 
 export default class VdmtStudentList extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            { id: "2310900099", fullname: "Vũ Đỗ Minh Thành", username: "vudominhthanh", password: "123456" },
-            { id: "54321", fullname: "Member a", username: "membera", password: "123456" },
-            { id: "98765", fullname: "Member b", username: "memberb", password: "123456" },
-    }
-    }
     return (
       <div>
               <div className="card-body">
@@ -27,10 +19,10 @@ export default class VdmtStudentList extends Component {
                             <tbody>
                             <tr>
                                 <td>{key}</td>
-                                <td>{this.state.id}</td>
-                                <td>{this.state.fullname}</td>
-                                <td>{this.state.username}</td>
-                                <td>{this.state.password}</td>
+                                <td>{members.Vdmtid}</td>
+                                <td>{members.Vdmtfullname}</td>
+                                <td>{members.Vdmtusername}</td>
+                                <td>{members.Vdmtpassword}</td>
                                 <td>
                                     <div className="template-demo">
                                     <button

@@ -4,9 +4,9 @@ import VdmtStudentAdd from './Components/VdmtStudentAdd'
 
 export default function VdmtApp() {
   const [members, setMembers] = useState([
-    { id: "2310900099", fullname: "Vũ Đỗ Minh Thành", username: "vudominhthanh", password: "123456" },
-    { id: "54321", fullname: "Member a", username: "membera", password: "123456" },
-    { id: "98765", fullname: "Member b", username: "memberb", password: "123456" },
+    { Vdmtid: "2310900099", Vdmtfullname: "Vũ Đỗ Minh Thành", Vdmtusername: "vudominhthanh", Vdmtpassword: "123456" },
+    { Vdmtid: "54321", Vdmtfullname: "Member a", Vdmtusername: "membera", Vdmtpassword: "123456" },
+    { Vdmtid: "98765", Vdmtfullname: "Member b", Vdmtusername: "memberb", Vdmtpassword: "123456" },
   ]);
 
   const VdmtAddMember = (member) => {
